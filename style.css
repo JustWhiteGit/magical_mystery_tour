@@ -57,6 +57,8 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
+    font-size: 1.2rem;
+
 
 }
 
@@ -131,3 +133,13 @@ section#four {
     -o-background-size: cover;
     background-size: cover;
 }
+
+
+
+
+
+.social-links {
+    font-size: 2rem;
+    position: bottom;
+}
+
