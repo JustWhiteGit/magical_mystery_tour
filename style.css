@@ -139,7 +139,23 @@ section#four {
 
 
 .social-links {
-    font-size: 2rem;
-    position: bottom;
+    padding-bottom: 30px;
+
 }
+
+.social-links li a {
+    color: pink;
+    height: 30px;
+    width: 30px;
+    font-size: 40px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.social-links li a:hover {
+    color: purple;
+}
+
+
+
 
