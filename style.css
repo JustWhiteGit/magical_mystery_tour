@@ -92,7 +92,7 @@ font-size: 1rem;
 
 }
 
-/* ==================================================== I M A G E S =============== */
+/* ==================================================== B A C K G R O U N D  I M A G E S =============== */
 
 section#home {
     background: url("assets/images/background1.jpg") no-repeat center center/ cover;
@@ -134,13 +134,25 @@ section#four {
     background-size: cover;
 }
 
+/* ==================================================== F O R M S =============== */
+
+.btn-secondary {
+    background-color: pink;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-secondary:hover {
+    color: purple;
+}
 
 
 
+
+/* ==================================================== S O C I A L  L I N K S =============== */
 
 .social-links {
     padding-bottom: 30px;
-
 }
 
 .social-links li a {
