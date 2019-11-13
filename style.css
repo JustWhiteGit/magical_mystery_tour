@@ -157,6 +157,7 @@ section#four {
 
 .social-links li a {
     color: pink;
+    padding: 10px;
     height: 30px;
     width: 30px;
     font-size: 40px;
