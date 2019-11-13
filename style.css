@@ -134,16 +134,52 @@ section#four {
     background-size: cover;
 }
 
+
+
+
+
+
+
+
+/* ==================================================== C A R D S =============== */
+
+.card {
+    font-size: 10em;
+    color: black;
+   
+}
+
+.card-header {
+    font-size: 12em;
+}
+
+.card-border {
+    border-width: thick;
+    border-color: pink;
+}
+
+.btn-expand {
+    background-color: pink;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.btn-expand:hover {
+    background-color: purple;
+    color: pink;
+}
+
+
 /* ==================================================== F O R M S =============== */
 
-.btn-secondary {
+.btn-submit {
     background-color: pink;
     text-decoration: none;
     transition: 0.5s ease-in-out;
 }
 
-.btn-secondary:hover {
-    color: purple;
+.btn-submit:hover {
+    background-color: purple;
+    color: pink;
 }
 
 
