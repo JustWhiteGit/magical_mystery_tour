@@ -135,6 +135,19 @@ section#four {
 }
 
 
+.card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  
+}
+
+
+
+
+
 /* ==================================================== C A R D S =============== */
 
 
