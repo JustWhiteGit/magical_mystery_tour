@@ -150,24 +150,43 @@ section#four {
 
 /* ==================================================== C A R D S =============== */
 
+/* BAND */
 
-.card-deck .card-text{
-    font-size: 10px;
+.card-band {
+    border: 0;
 }
 
+.card-deck .card-band .card-body .card-text {
+    font-size: 11px;
+    color: black;
+}
 
+.card-deck .card-band .card-body {
+    background-color: #f6d5d5;
+}
 
+.card-band .card-body .card-title {
+    font-size: 14px;
+    color: red;
+}
 
-
-
-.card {
+.card .card-body .card-text {
     font-size: 10px;
     color: black;
-   
 }
 
-.card-header {
-    font-size: 15px;
+
+/* PACKAGES */
+
+
+.card-tours .card-body .card-title {
+    font-size: 30px;
+    color: black;
+}
+
+.card-tours .card-body .card-text {
+    font-size: 14px;
+    color: purple;
 }
 
 .card-border {
@@ -178,7 +197,7 @@ section#four {
 .btn-expand {
     background-color: pink;
     text-decoration: none;
-    transition: 0.5s ease-in-out;
+    transition: 1.2s ease-in-out;
 }
 .btn-expand:hover {
     background-color: purple;
