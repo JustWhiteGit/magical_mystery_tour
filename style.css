@@ -18,6 +18,8 @@ body {
 .container-fluid {
     width: 100%;
     height: 100%;
+    padding-left: 0;
+    padding-right: 0;
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
@@ -152,6 +154,12 @@ section#four {
 
 /* BAND */
 
+.card-deck {
+    padding-left: 15px;
+    padding-right: 15px;
+     
+}
+
 .card-band {
     border: 0;
 }
@@ -178,6 +186,11 @@ section#four {
 
 /* PACKAGES */
 
+.packages {
+    padding-left: 15px;
+    padding-right: 15px;
+     
+}
 
 .card-tours .card-body .card-title {
     font-size: 30px;
