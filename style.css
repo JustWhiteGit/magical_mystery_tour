@@ -244,7 +244,8 @@ section#four {
 /* ==================================================== S O C I A L  L I N K S =============== */
 
 .social-links {
-    padding-bottom: 30px;
+    padding-top: 100px;
+/*  padding-bottom: 30px;*/
 }
 
 .social-links li a {
