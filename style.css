@@ -248,6 +248,26 @@ section#four {
 
 
 
+/* modals */
+
+#californiaModal {
+    background:  url("assets/images/background3.jpg") no-repeat center center/ cover;
+}
+
+.modal-dialog .modal-content .modal-title {
+    font-size: 40px;
+    color: green
+}
+
+
+.modal-dialog .modal-content .modal-body p {
+    font-size: 15px;
+    color: red;
+}
+
+
+
+
 
 /* ==================================================== S O C I A L  L I N K S =============== */
 

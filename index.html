@@ -33,8 +33,8 @@
 
 			<h1>Magical Mystery Tours</h1>
 			<br>
-            <br>
-            <br>
+			<br>
+			<br>
 			<h4>....roll up, roll up! Welcome to the Magical Mystery Tour!</h4>
 
 		</section>
@@ -52,7 +52,37 @@
 				interest to the actual band members and not just the band as a whole.
 
 				Why we built this site.
+
 			</p>
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+						</div>
+						<div class="modal-body">
+							...
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
 		</section>
 
 		<!-- ====================== T H E  B A N D ======================= -->
@@ -65,7 +95,8 @@
 					<img src="assets/images/lennon.PNG" class="card-img-top" alt="John Lennon silhouette">
 					<div class="card-body">
 						<h3 class="card-title">John Lennon</h3>
-						<p class="text-justify card-text">Growing up in the middle-class village of Woolton on the outskirts of
+						<p class="text-justify card-text">Growing up in the middle-class village of Woolton on the
+							outskirts of
 							Liverpool everybody knew John Winston Lennon was different. Nobody could have guessed
 							however that the local troublemaker would go on to change the world!
 							<!-- From Teddy Boy to avante garde protester for peace. We follow John Lennon from his troubled
@@ -81,7 +112,8 @@
 					<img src="assets/images/mccartney.PNG" class="card-img-top" alt="Paul McCartney silhouette">
 					<div class="card-body">
 						<h3 class="card-title">Paul McCartney</h3>
-						<p class="text-justify card-text">Born to a mid-wife & a salesman in 1942 Paul McCartney was the third Beatle
+						<p class="text-justify card-text">Born to a mid-wife & a salesman in 1942 Paul McCartney was the
+							third Beatle
 							to be born in Liverpool.
 							The band’s bassist & half of the “Lennon/McCartney song factory, James Paul McCartney went
 							on to become the most successful solo artist the world has ever seen.
@@ -99,7 +131,8 @@
 					<img src="assets/images/harrison.PNG" class="card-img-top" alt="George Harrison silhouette">
 					<div class="card-body">
 						<h5 class="card-title">George Harrison</h5>
-						<p class="text-justify card-text">The youngest of 4 children, George Harrison started out life in an
+						<p class="text-justify card-text">The youngest of 4 children, George Harrison started out life
+							in an
 							understated 2 up 2 down in Liverpool’s Wavertree.
 							He was training as an electrician when he decided to throw it all in for a rock n roll band
 							expecting to just make a few bob. Fast forward 2 years & that rock n roll band were
@@ -189,8 +222,29 @@
 						<div class="card-body">
 							<h5 class="card-title">California</h5>
 							<p class="card-text">Tour information in bullet form.
+
 							</p>
-							<a href="#" class="btn btn-expand">Expand Tour Info</a>
+
+							<button type="button" class="btn btn-expand" data-toggle="modal" data-target="#californiaModal" >Expand Tour Info</button>
+
+							<div class="modal fade" id="californiaModal" tabindex="-1" role="dialog"
+								aria-labelledby="californiaModalTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h3 class="modal-title" id="californiaModalTitle">California Tours</h3>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>       </button>
+										</div>
+										<div class="modal-body">
+											<p>Cali cali cali tour tour </p>
+										</div>
+										<div class="modal-footer">
+                                            <p>footer content</p>
+											<button type="button" class="btn btn-expand" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -278,6 +332,20 @@
 
 	</div>
 
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
 </body>
 
 
