@@ -147,14 +147,16 @@ section#four {
 
 /* tried these two option but neither worked in rendering picture contained within the cell of the grid */ 
 
-.imgRachel {
+.rounded-circle {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    max-width: 100px;
-    height: auto;
+    width: 75%;
+  /*  max-width: 100px;*/
+    height: 75;
+    padding: 10px;
     transform: rotate(90deg);
+ 
 }
 
 
@@ -186,16 +188,16 @@ see above for isseus with pic */
 
 .rachel {
     border: 3px solid black;
-    height: 30vh;
+    height: 25vh;
 }
 
 .information {
-    height: 20vh;
+    height: 25vh;
 }
 
 .lauren {
     border: 3px solid white;
-    height: 30vh;
+    height: 25vh;
 }
 
 
