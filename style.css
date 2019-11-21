@@ -39,7 +39,8 @@ body {
     width: 100%;
     height: 50px;
     z-index: 1;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.4);
+    
 
 }
 
@@ -53,7 +54,7 @@ body {
 
 .navbar ul li {
     margin: 0 1rem;
-    padding: 1rem;
+    padding: 0.51rem;
 
 }
 
@@ -154,8 +155,26 @@ section#four {
   
 }
 
+/* ==================================================== A B O U T  U S  =============== */
 
+.about-us {
+    border: 5px solid red;
+    
+}
 
+.rachel {
+    border: 3px solid black;
+    height: 30vh;
+}
+
+.information {
+    height: 20vh;
+}
+
+.lauren {
+    border: 3px solid white;
+    height: 30vh;
+}
 
 
 /* ==================================================== C A R D S =============== */
