@@ -89,12 +89,17 @@ section {
 
 section h1 {
     font-size: 8rem;
-    text-shadow: 0.2rem 0.2rem blue;
+    text-shadow: 0.2rem 0.2rem purple;
 
 }
 
+section h2 {
+    font-size: 5rem;
+    text-shadow: 0.2rem 0.2rem purple;
+}
+
 section h4 {
-    text-shadow: 0.2rem 0.2rem blue;
+    text-shadow: 0.2rem 0.2rem purple;
 }
 
 section p {
@@ -103,7 +108,7 @@ section p {
 
 }
 
-/* ==================================================== B A C K G R O U N D  I M A G E S =============== */
+/* ====================================================  I M A G E S =============== */
 
 section#home {
     background: url("assets/images/background1.jpg") no-repeat center center/ cover;
@@ -123,7 +128,7 @@ section#one {
 
 section#two {
     background: url("assets/images/background2.jpg") no-repeat center center/ cover;
-  -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -131,7 +136,7 @@ section#two {
 
 section#three{
     background: url("assets/images/background3.jpg") no-repeat center center/ cover;
-      -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -139,7 +144,7 @@ section#three{
 
 section#four {
     background: url("assets/images/background4.jpg") no-repeat center center/ cover;
-      -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -153,11 +158,11 @@ section#four {
     margin-right: auto;
     width: 75%;
   /*  max-width: 100px;*/
-    height: 75;
+    height: 75%;
     padding: 10px;
     transform: rotate(90deg);
- 
-}
+ }
+
 
 
 /* 
@@ -168,7 +173,7 @@ section#four {
     border-radius: 15px;
 }
 
-see above for isseus with pic */
+see above for issues with pic */
 
 .card-img-top {
     display: block;
@@ -208,15 +213,19 @@ see above for isseus with pic */
 .card-deck {
     padding-left: 15px;
     padding-right: 15px;
-     
+       
 }
 
 .card-band {
-    border: 0;
+    border-radius: 30px;
+    border-width: thick;
+    border-color: pink;
 }
 
+
+
 .card-deck .card-band .card-body .card-text {
-    font-size: 11px;
+    font-size: 12px;
     color: black;
     align-content: justify;
     align-items: justify;
@@ -224,7 +233,11 @@ see above for isseus with pic */
 
 .card-deck .card-band .card-body {
     background-color: #f6d5d5;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
 }
+
 
 .card-band .card-body .card-title {
     font-size: 25px;
@@ -259,6 +272,7 @@ see above for isseus with pic */
 .card-border {
     border-width: thick;
     border-color: pink;
+    border-radius: 30px;
 }
 
 .btn-expand {
@@ -306,8 +320,13 @@ see above for isseus with pic */
 .modal-dialog .modal-content .modal-body p {
     font-size: 15px;
     color: red;
+    justify-content: justify;
+    
 }
 
+.modal-header {
+    color: purple;
+}
 
 
 
