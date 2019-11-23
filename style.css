@@ -227,8 +227,7 @@ see above for issues with pic */
 .card-deck .card-band .card-body .card-text {
     font-size: 12px;
     color: black;
-    align-content: justify;
-    align-items: justify;
+   
 }
 
 .card-deck .card-band .card-body {
@@ -247,7 +246,7 @@ see above for issues with pic */
 .card .card-body .card-text {
     font-size: 12px;
     color: black;
-    align-items: justify;
+  
 }
 
 
@@ -260,12 +259,14 @@ see above for issues with pic */
 }
 
 .card-tours .card-body .card-title {
-    font-size: 30px;
+    font-size: 25px;
+    padding: 0px;
     color: black;
 }
 
 .card-tours .card-body .card-text {
     font-size: 14px;
+    text-align: justify;
     color: purple;
 }
 
@@ -320,8 +321,7 @@ see above for issues with pic */
 .modal-dialog .modal-content .modal-body p {
     font-size: 15px;
     color: red;
-    justify-content: justify;
-    
+    text-align: justify;    
 }
 
 .modal-header {
