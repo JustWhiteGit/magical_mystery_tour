@@ -13,7 +13,12 @@ body {
     height: 100vh;
     overflow: hidden;
 
-       }
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 5%;
+  
+}
 
 .container-fluid {
     width: 100%;
@@ -89,6 +94,7 @@ section {
 
 section h1 {
     font-size: 8rem;
+    margin-top: 5%;
     text-shadow: 0.2rem 0.2rem purple;
 
 }
@@ -225,7 +231,7 @@ see above for issues with pic */
 
 
 .card-deck .card-band .card-body .card-text {
-    font-size: 12px;
+    font-size: 18px;
     color: black;
    
 }
@@ -354,21 +360,27 @@ see above for issues with pic */
 
 
 
-/* ==================================================== M E D I A  Q U E R I E S =============== 
+/* ==================================================== M E D I A  Q U E R I E S =============== */
 
 unable to get these to work....
 
-*/
 
-@media(min-width: 768px) {
+
+@media 
+
+@media (min-width: 768px) {
     .card-body {
         font-size: 100px;
     }
 }
 
-@media(min-width: 992px) {
-    .card-band .card-body .card-text {
-        font-size: 500px;
+@media(min-width: 500px) {
+   
+    .card-tours .card-body .card-text {
+    font-size: 16px;
+    text-align: justify;
+    color: red;
+}
+       
     }
 
-}
