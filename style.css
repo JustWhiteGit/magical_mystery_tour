@@ -308,7 +308,7 @@ see above for issues with pic */
 
 /* modals */
 
-#californiaModal, #liverpoolModal {
+#liverpoolModal, #londonModal, #beyondModal, #hamburgModal, #newyorkModal, #rishikeshModal {
     background:  url("assets/images/background3.jpg") no-repeat center center/ cover;
 }
 
