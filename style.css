@@ -117,7 +117,11 @@ section h3 {
 }
 
 section h4 {
-    text-shadow: 0.2rem 0.2rem purple;
+    text-shadow: 0.1rem 0.1rem purple;
+}
+
+section h5 {
+    text-shadow: 0.1rem 0.1rem purple;   
 }
 
 section p {
@@ -360,6 +364,10 @@ section#four {
 .bullets {
    font-style: italic;
    text-indent: 10px;
+}
+
+.lyrics {
+    font-style: oblique;
 }
 
 /* ==================================================== S O C I A L  L I N K S =============== */
