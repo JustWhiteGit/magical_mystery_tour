@@ -265,13 +265,15 @@ section#four {
 }
 
 .card-tours .card-body-tours .card-title {
-    font-size: 25px;
+    font-size: 35px;
     padding: 0px;
-    color: black;
+    color: indigo;
+    letter-spacing: 0.5px;
+    margin: 3px;
 }
 
 .card-tours .card-body-tours p {
-    font-size: 11px;
+    font-size: 13px;
     line-height: 18px;
     margin: 14px;
     text-align: justify;
@@ -325,7 +327,8 @@ section#four {
 
 .modal-dialog .modal-content .modal-title {
     font-size: 40px;
-    color: green
+    color: indigo;
+    margin: 30px;
 }
 
 
