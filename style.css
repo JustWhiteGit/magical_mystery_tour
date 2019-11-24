@@ -182,17 +182,6 @@ section#four {
  }
 
 
-
-/* 
-.imgRachel {
-    background: url("assets/images/rachel-about-us.jpg") no-repeat center center/ cover;
-    background-size: cover;
-     transform: rotate(90deg);
-    border-radius: 15px;
-}
-
-see above for issues with pic */
-
 .card-img-top {
     display: block;
     margin-left: auto;
@@ -276,14 +265,16 @@ see above for issues with pic */
      
 }
 
-.card-tours .card-body .card-title {
+.card-tours .card-body-tours .card-title {
     font-size: 25px;
     padding: 0px;
     color: black;
 }
 
-.card-tours .card-body .card-text {
-    font-size: 14px;
+.card-tours .card-body-tours p {
+    font-size: 11px;
+    line-height: 18px;
+    margin: 14px;
     text-align: justify;
     color: purple;
 }
@@ -304,6 +295,10 @@ see above for issues with pic */
     color: pink;
 }
 
+/*
+button, input, optgroup, select, textarea {
+    margin: 15px;
+    font-family: inherit;
 
 
 
@@ -420,6 +415,10 @@ see above for issues with pic */
     }
 }
 
+
+/* unsure why i have this here....... found that it was impacting on tour cards... come back to see if needed.  */
+
+
 @media(min-width: 500px) {
    
     .card-tours .card-body .card-text {
@@ -429,4 +428,9 @@ see above for issues with pic */
 }
        
     }
+
+
+
+
+
 
