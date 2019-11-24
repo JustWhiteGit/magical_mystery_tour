@@ -288,6 +288,7 @@ section#four {
 .btn-expand {
     background-color: pink;
     text-decoration: none;
+    margin: 15px;
     transition: 1.2s ease-in-out;
 }
 .btn-expand:hover {
