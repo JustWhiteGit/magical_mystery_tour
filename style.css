@@ -230,7 +230,6 @@ section#four {
 }
 
 
-
 .card-deck .card-band .card-body .card-text {
     font-size: 18px;
     color: black;
@@ -296,10 +295,8 @@ section#four {
     color: pink;
 }
 
-/*
-button, input, optgroup, select, textarea {
-    margin: 15px;
-    font-family: inherit;
+
+
 
 
 
@@ -333,17 +330,34 @@ button, input, optgroup, select, textarea {
 
 
 .modal-dialog .modal-content .modal-body p {
-    font-size: 15px;
+    font-size: 14px;
     color: red;
-    text-align: justify;    
+    text-align: justify;
+    letter-spacing: 0.5px;    
 }
 
 .modal-header {
     color: purple;
 }
 
+.modal-footer {
+    color: purple;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
 
+.paraSubs {
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+    text-indent: 20px;
+    letter-spacing: 1px;
+}
 
+.bullets {
+   font-style: italic;
+   text-indent: 10px;
+}
 
 /* ==================================================== S O C I A L  L I N K S =============== */
 
