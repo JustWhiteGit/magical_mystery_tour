@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ============================================= N A V B A R ==================== */
+
 .navbar {
     position: fixed;
     display: flex;
@@ -46,7 +47,6 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
     background: rgba(0, 0, 0, 0.4);
     
-
 }
 
 .navbar ul {
@@ -70,12 +70,19 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     font-size: 1.2rem;
 
-
 }
 
 .navbar ul li a:hover {
     color: pink;
 }
+
+ .navbar-toggler-icon {
+     color: white;
+     font-size: 26px;
+     padding: 6px;
+
+ }
+
 
 /* ================================================== S E C T I O N S ============ */
 
@@ -92,9 +99,9 @@ section {
 
 }
 
-/* mobile first tick */
+
 section h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     margin: 5%;
     text-shadow: 0.2rem 0.2rem purple;
 }
