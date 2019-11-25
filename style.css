@@ -237,6 +237,7 @@ section#four {
 .card-deck .card-band .card-body .card-text {
     font-size: 20px;
     color: black;
+    text-shadow: 1.5px 1.5px pink;
    
 }
 
@@ -259,10 +260,11 @@ section#four {
   
 }
 
-.card-body-lennon p {
+.card-body-lennon p, .card-body-mccartney p, .card-body-harrison p, .card-body-starr p {
     font-size: 20px;
     color: black;
     text-align: justify;
+    padding: 14px;
 }
 
 
