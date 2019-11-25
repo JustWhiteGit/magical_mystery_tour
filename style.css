@@ -235,7 +235,7 @@ section#four {
 
 
 .card-deck .card-band .card-body .card-text {
-    font-size: 18px;
+    font-size: 20px;
     color: black;
    
 }
@@ -253,10 +253,16 @@ section#four {
     color: red;
 }
 
-.card .card-body .card-text {
+.card .card-body .card-text p {
     font-size: 12px;
     color: black;
   
+}
+
+.card-body-lennon p {
+    font-size: 20px;
+    color: black;
+    text-align: justify;
 }
 
 
@@ -295,6 +301,8 @@ section#four {
     text-decoration: none;
     margin: 15px;
     transition: 1.2s ease-in-out;
+    border-width: thin;
+    border-color: purple;
 }
 .btn-expand:hover {
     background-color: purple;
