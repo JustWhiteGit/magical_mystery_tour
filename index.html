@@ -18,21 +18,21 @@
 <body>
 
 	<nav class="navbar navbar-expand-md">
-		<div class="container-fluid">
-			<button class="navbar-toggler" data-toggle="collapse" data-target="#navCollapse">
+		<!--<div class="container-fluid">-->
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navCollapse">
             <span class="navbar-toggler-icon">
             <i class="fas fa-bars"></i>
             </span></button>
-			<div class="collapse navbar-collapse" id="navCollapse">
-				<ul class="nav navbar-nav">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#one">About Us</a></li>
-					<li><a href="#two">The Band</a></li>
-					<li><a href="#three">Packages</a></li>
-					<li><a href="#four">Contact Us</a></li>
-				</ul>
-			</div>
+		<div class="collapse navbar-collapse" id="navCollapse">
+			<ul class="navbar-nav">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#one">About Us</a></li>
+				<li><a href="#two">The Band</a></li>
+				<li><a href="#three">Packages</a></li>
+				<li><a href="#four">Contact Us</a></li>
+			</ul>
 		</div>
+		<!--</div>-->
 	</nav>
 
 	<div class="container-fluid">
@@ -184,7 +184,7 @@
 									</div>
 								</div>
 
-								</p>
+
 							</div>
 						</div>
 					</div>
@@ -206,7 +206,7 @@
 
 								<button class="btn btn-expand" type="button" data-toggle="collapse" data-target="#collapseHarrison" aria-expanded="false" aria-controls="collapseHarrison">
     More info
-  </button></p>
+  </button>
 								<div class="collapse" id="collapseHarrison">
 									<div class="card card-body-harrison">
 										<p> Important George sites included in our tours take you from his first house
@@ -227,7 +227,7 @@
 
 
 
-								</p>
+
 							</div>
 						</div>
 					</div>
@@ -237,12 +237,40 @@
 							<img src="assets/images/starr.PNG" class="card-img-top" alt="Ringo Starr silhouette">
 							<div class="card-body">
 								<h5 class="card-title">Ringo Starr</h5>
-								<p class="text-justify card-text">blah blah blah</p>
+								<p class="text-justify card-text">
+									For rags-to-riches stories, Ringo’s has to be up there with the greats. Born Richard
+									Starkey his upbringing on one of Liverpool’s harshest housing estates meant his
+									childhood was tough. Ringo was a poorly child and spent most of his time in
+									hospital, missing out on a decent education.
+								</p>
+
+
+								<button class="btn btn-expand" type="button" data-toggle="collapse" data-target="#collapseStarr" aria-expanded="false" aria-controls="collapseStarr">
+    More info
+  </button>
+								<div class="collapse" id="collapseStarr">
+									<div class="card card-body-starr">
+										<p> During one of his long stints in hospital he was handed a set of drumsticks.
+											These would be the tools to get him out of the bleak life that seemed set
+											out in front of him. He was a late comer to the band but from the moment Ringo
+											stepped behind the drums for the Beatles the slow but steady success they
+											had been experiencing suddenly sky rocketed. Once the 4 puzzle pieces were
+											in place the world that Ringo knew changed beyond all recognition and he
+											never looked back. Let us take you back to his tiny first home, the pub that
+											his mother worked in at the bottom of his road and onwards and upwards
+											through to central London townhouse and his mansions in England’s most
+											prestigious towns. A remarkable story of the lad from the Dingle.
+										</p>
+										<p>
+											There is something for Ringo fans in all our tours however to really
+											understand Ringo’s story we recommend our Liverpool package.
+										</p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 		</section>
 
 
@@ -465,7 +493,7 @@
 							</div>
 						</div>
 					</div>
-
+					<br>
 					<div class="col-12 col-md-4">
 						<div class="card card-tours card-border">
 							<div class="card-body-tours">
@@ -1064,8 +1092,12 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
-
-
+	<!--  added script for auto closing of navbar upon selecting a target -->
+	<script>
+		$('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+	</script>
 
 </body>
 
