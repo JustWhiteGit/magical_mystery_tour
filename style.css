@@ -296,6 +296,11 @@ section#four {
      
 }
 
+
+.flex-column {
+    align-content: center;
+}
+
 .card-tours .card-body-tours .card-title {
     font-size: 35px;
     padding: 0px;
@@ -318,7 +323,11 @@ section#four {
     border-radius: 30px;
 }
 
-
+.card-footer {
+    padding: 0.2rem -1rem;
+    background-color: rgba(0,0,0,0);
+    border-top: 1px solid rgba(0,0,0,0);
+}
 
 .btn-expand {
     background-color: pink;
