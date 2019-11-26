@@ -200,6 +200,18 @@ section#four {
 
 /* ==================================================== A B O U T  U S  =============== */
 
+.d-flex {
+    font-size: 12px;
+    color: blue
+}
+
+.flex-fill {
+    font-size: 14px;
+    color:chocolate;
+}
+
+
+
 .about-us {
     border: 5px solid red;
     
@@ -223,6 +235,11 @@ section#four {
 /* ==================================================== C A R D S =============== */
 
 /* BAND */
+
+.wrapper {
+    margin: 15px;
+    padding: 5px;
+}
 
 .card-deck {
     padding-left: 15px;
@@ -299,6 +316,11 @@ section#four {
     border-width: thick;
     border-color: pink;
     border-radius: 30px;
+}
+
+
+.card-footer {
+    height: 
 }
 
 .btn-expand {
