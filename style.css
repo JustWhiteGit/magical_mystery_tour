@@ -353,6 +353,7 @@ section#four {
 
 .btn-submit {
     background-color: pink;
+    border-color: purple;
     text-decoration: none;
     transition: 0.5s ease-in-out;
 }
