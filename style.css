@@ -283,6 +283,7 @@ section#four {
 .card-body-lennon p, .card-body-mccartney p, .card-body-harrison p, .card-body-starr p {
     font-size: 20px;
     color: black;
+    background-color: pink;
     text-align: justify;
     padding: 14px;
 }
