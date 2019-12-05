@@ -264,6 +264,8 @@ section#four {
 .card-deck .card-band .card-body {
     background-color: #f6d5d5;
     border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 
 }
