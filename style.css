@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar ul li {
     margin: 0 1rem;
-    padding: 0.51rem;
+    padding: 0.5rem;
 
 }
 
@@ -255,7 +255,7 @@ section#four {
 
 
 .card-deck .card-band .card-body .card-text {
-    font-size: 20px;
+    font-size: 1.5rem;
     color: black;
     text-shadow: 1.5px 1.5px #f6d5d5;
    
@@ -270,18 +270,18 @@ section#four {
 
 
 .card-band .card-body .card-title {
-    font-size: 25px;
+    font-size: 2rem;
     color: red;
 }
 
 .card .card-body .card-text p {
-    font-size: 12px;
+    font-size: 1.5rem;
     color: black;
   
 }
 
 .card-body-lennon p, .card-body-mccartney p, .card-body-harrison p, .card-body-starr p {
-    font-size: 20px;
+    font-size: 1.5rem;
     color: black;
     background-color: #f6d5d5;
     text-align: justify;
@@ -297,7 +297,7 @@ section#four {
 }
 
 .card-tours .card-body-tours .card-title {
-    font-size: 35px;
+    font-size: 2rem;
     padding: 0px;
     color: indigo;
     letter-spacing: 0.5px;
@@ -305,7 +305,7 @@ section#four {
 }
 
 .card-tours .card-body-tours p {
-    font-size: 13px;
+    font-size: 1.25rem;
     line-height: 18px;
     margin: 14px;
     text-align: justify;
@@ -367,14 +367,14 @@ section#four {
 }
 
 .modal-dialog .modal-content .modal-title {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: red;
     margin: 30px;
 }
 
 
 .modal-dialog .modal-content .modal-body p {
-    font-size: 14px;
+    font-size: 1.5rem;
     color: indigo;
     text-align: justify;
     letter-spacing: 0.5px;    
@@ -382,17 +382,18 @@ section#four {
 
 .modal-header {
     color: purple;
+    text-decoration: 
 }
 
 .modal-footer {
     color: purple;
-    font-size: 13px;
+    font-size: 1.25rem;
     letter-spacing: 0.5px;
 }
 
 .paraSubs {
     text-decoration: underline;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: bold;
     text-indent: 20px;
     letter-spacing: 1px;
@@ -419,7 +420,7 @@ section#four {
     padding: 10px;
     height: 30px;
     width: 30px;
-    font-size: 40px;
+    font-size: 3.25rem;
     text-decoration: none;
     transition: 0.5s ease-in-out;
 }
@@ -487,7 +488,7 @@ section#four {
     .card-tours .card-body .card-text {
     font-size: 16px;
     text-align: justify;
-    color: red;
+    color: blue;
 }
        
     }
