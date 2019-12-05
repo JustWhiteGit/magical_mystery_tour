@@ -255,7 +255,7 @@ section#four {
 
 
 .card-deck .card-band .card-body .card-text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: black;
     text-shadow: 1.5px 1.5px #f6d5d5;
    
@@ -281,7 +281,7 @@ section#four {
 }
 
 .card-body-lennon p, .card-body-mccartney p, .card-body-harrison p, .card-body-starr p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: black;
     background-color: #f6d5d5;
     text-align: justify;
@@ -319,13 +319,14 @@ section#four {
 }
 
 .card-footer {
-    padding: 0.2rem -1rem;
+    padding: 0.05rem 0.05rem;
     background-color: rgba(0,0,0,0);
     border-top: 1px solid rgba(0,0,0,0);
 }
 
 .btn-expand {
     background-color: #f6d5d5;
+    font-size: 1.25rem;
     text-decoration: none;
     margin: 15px;
     transition: 1.2s ease-in-out;
@@ -334,6 +335,7 @@ section#four {
 }
 .btn-expand:hover {
     background-color: purple;
+    font-size: 1.25rem;
     color: #f6d5d5;
 }
 
@@ -349,8 +351,9 @@ section#four {
 .btn-submit {
     background-color: #f6d5d5;
     border-color: purple;
+    font-size: 1.25rem;
     text-decoration: none;
-    transition: 0.5s ease-in-out;
+    transition: 1.2s ease-in-out;
 }
 
 .btn-submit:hover {
@@ -382,7 +385,6 @@ section#four {
 
 .modal-header {
     color: purple;
-    text-decoration: 
 }
 
 .modal-footer {
@@ -422,7 +424,7 @@ section#four {
     width: 30px;
     font-size: 3.25rem;
     text-decoration: none;
-    transition: 0.5s ease-in-out;
+    transition: 1.2s ease-in-out;
 }
 
 .social-links li a:hover {
@@ -445,6 +447,13 @@ section#four {
         font-size: 1.5rem;
         text-shadow: 0.1rem 0.1rem purple;
         }
+    .card-deck .card-band .card-body .card-text {
+    font-size: 1.3rem;
+        }
+    .card-body-lennon p, .card-body-mccartney p, .card-body-harrison p, .card-body-starr p {
+    font-size: 1.3rem;
+        }
+
 }
 
 @media(min-width: 768px) {
@@ -457,6 +466,13 @@ section#four {
         font-size: 2rem;
         text-shadow: 0.1rem 0.1rem purple;
         }
+    .card-deck .card-band .card-body .card-text {
+    font-size: 1.4rem;
+        }
+    .card-body-lennon p, .card-body-mccartney p, .card-body-harrison p, .card-body-starr p {
+    font-size: 1.4rem;
+        }
+
 }
 
 @media(min-width: 992px) {
@@ -468,31 +484,15 @@ section#four {
     section h3 {
         font-size: 2.5rem;
         text-shadow: 0.1rem 0.1rem purple;
-    }
+        }
+    .card-deck .card-band .card-body .card-text {
+    font-size: 1.5rem;
+        }
+    .card-body-lennon p, .card-body-mccartney p, .card-body-harrison p, .card-body-starr p {
+    font-size: 1.5rem;
+        }
+
 }
-
-
-
-@media (min-width: 768px) {
-    .card-body {
-        font-size: 100px;
-    }
-}
-
-
-/* unsure why i have this here....... found that it was impacting on tour cards... come back to see if needed.  */
-
-
-@media(min-width: 500px) {
-   
-    .card-tours .card-body .card-text {
-    font-size: 16px;
-    text-align: justify;
-    color: blue;
-}
-       
-    }
-
 
 
 
