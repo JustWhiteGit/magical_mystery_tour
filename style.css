@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-nav {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .navbar ul {
@@ -110,8 +110,8 @@ section h1 {
 }
 
 section h2 {
-    font-size: 4rem;
-    text-shadow: 0.2rem 0.2rem purple;
+    font-size: 3rem;
+    text-shadow: 0.1rem 0.1rem purple;
 }
 
 section h3 {
@@ -301,7 +301,7 @@ section#four {
 .card-tours .card-body-tours .card-title {
     font-size: 2rem;
     padding: 0px;
-    color: indigo;
+    color: red;
     letter-spacing: 0.5px;
     margin: 3px;
 }
@@ -414,8 +414,13 @@ section#four {
 
 /* ==================================================== S O C I A L  L I N K S =============== */
 
+
+.contact {
+   
+}
+
 .social-links {
-    padding-top: 100px;
+    padding-top: 10px;
 /*  padding-bottom: 30px;*/
 }
 
@@ -424,7 +429,7 @@ section#four {
     padding: 10px;
     height: 30px;
     width: 30px;
-    font-size: 3.25rem;
+    font-size: 1.6rem;
     text-decoration: none;
     transition: 1.2s ease-in-out;
 }
@@ -437,13 +442,17 @@ section#four {
 
 /* ==================================================== M E D I A  Q U E R I E S =============== */
 
-
+/* mobile first with increasing values as the resolution/screen-size increases*/
 
 @media(min-width: 600px) {
     section h1 {
         font-size: 5rem;
         margin: 5%;
         text-shadow: 0.2rem 0.2rem purple;
+        }
+    Section h2 {
+        font-size: 3.3rem;
+        
         }
     section h3 {
         font-size: 1.5rem;
@@ -455,14 +464,28 @@ section#four {
     .card-body-lennon p, .card-body-mccartney p, .card-body-harrison p, .card-body-starr p {
     font-size: 1.3rem;
         }
+    .social-links li a {
+        font-size: 2rem;
+        }
 
 }
 
 @media(min-width: 768px) {
+    .navbar {
+    background: rgba(0, 0, 0, 0.4);
+        }
+    .navbar-nav {
+    background: rgba(0, 0, 0, 0.4);
+        }
+    
     section h1 {
         font-size: 6rem;
         margin: 5%;
         text-shadow: 0.2rem 0.2rem purple;
+        }
+        Section h2 {
+        font-size: 3.6rem;
+        text-shadow: 0.15rem 0.15rem purple;
         }
     section h3 {
         font-size: 2rem;
@@ -474,13 +497,27 @@ section#four {
     .card-body-lennon p, .card-body-mccartney p, .card-body-harrison p, .card-body-starr p {
     font-size: 1.4rem;
         }
+    .social-links li a {
+        font-size: 2.5rem;
+    }
 
 }
 
 @media(min-width: 992px) {
+    .navbar {
+    background: rgba(0, 0, 0, 0.4);
+        }
+    .navbar-nav {
+    background: rgba(0, 0, 0, 0.4);
+        }
+        
     section h1 {
         font-size: 8rem;
         margin: 5%;
+        text-shadow: 0.2rem 0.2rem purple;
+        }
+    Section h2 {
+        font-size: 4rem;
         text-shadow: 0.2rem 0.2rem purple;
         }
     section h3 {
@@ -493,7 +530,25 @@ section#four {
     .card-body-lennon p, .card-body-mccartney p, .card-body-harrison p, .card-body-starr p {
     font-size: 1.5rem;
         }
+     .social-links li a {
+        font-size: 3rem;
+    }
 
+}
+
+/*Introduced max-width media query for unusually small devices like the iPhoneSE */
+@media(max-width: 500px){
+      Section h2 {
+        font-size: 2.5rem;
+        text-shadow: 0.1rem 0.1rem purple;
+        }
+    .btn-expand {
+        font-size: 1rem;
+    }
+
+    .btn-submit {
+        font-size: 1rem;
+    }
 }
 
 
