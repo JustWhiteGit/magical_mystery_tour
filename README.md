@@ -56,7 +56,7 @@ Presented with eye-catching colours and bold typography applicable to the band g
 
 * Gallery with tour images/fan's photos.
 
-## Technologies utilised
+## Technologies
 * [Gitpod](https://www.gitpod.io/) Online IDE for GitHub & GitLab.
 * [HTML](https://www.w3schoolshttps://www.gitpod.io/.com/html/) The standard markup language for Web pages.
 * [CSS](https://www.w3schools.com/css/) Language that describes the style of an HTML document.
@@ -69,14 +69,15 @@ Presented with eye-catching colours and bold typography applicable to the band g
 
 ## Credits/Ackowlegments
 
-I have used the learning from the course to build this website. I have utilised many platforms to develop this learning and improve my understanding of the core structures in this build. 
+I have used the learning from the Full Stack Web Developer course to build this website. I have utilised many platforms to develop this learning and improve my understanding of the core structures in this build.
+
 * In principle, the learnings from [Bootstrap](https://getbootstrap.com/) and [W3Schools](https://www.w3schools.com/) and their libraries of content have been essential. 
-* I have also used [Material Design for Bootstrap(mdbootstrap)](https://mdbootstrap.com/) and [Stack Overflow](https://stackoverflow.com/) to provide various public viewpoints on issues that I encountered when Bootstrap and W3School did not present an answer. 
-
-
-* Text content has been provided by myself.
-* 
+* I have also used [Material Design for Bootstrap (mdbootstrap)](https://mdbootstrap.com/) and [Stack Overflow](https://stackoverflow.com/) to provide various public viewpoints on issues that I encountered when Bootstrap and W3School did not present an answer. 
+* YouTube content has helped me understand html and css behaviours. Special mention to _DevTips_, _Traversy Media_, _Academind_, _Kevin Powell_ and _Clever Techie_ for their tutorials.
+* I have sought occasional advice from Slack and Tutor Support and would like to acknowledge in particular, _Tim Nelson_ and _Anna Greaves_ for their patience and assistance. 
+* All textual content has been provided by myself.
+* Any code utilised from the aforementioned sources has been modified to support my site. 
 * Images have been obtained from the free stock libraries mentioned above.
-* 
 
 
+**This is for educational use.**
