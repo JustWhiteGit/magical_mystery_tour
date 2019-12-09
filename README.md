@@ -73,10 +73,10 @@ I have used the learning from the Full Stack Web Developer course to build this 
 
 * In principle, the learnings from [Bootstrap](https://getbootstrap.com/) and [W3Schools](https://www.w3schools.com/) and their libraries of content have been essential. 
 * I have used [Material Design for Bootstrap (mdbootstrap)](https://mdbootstrap.com/) and [Stack Overflow](https://stackoverflow.com/) to seek public viewpoints on issues that I encountered when Bootstrap and W3School did not present an answer. 
-* YouTube content has helped me understand html and css behaviours to a greater depth. Special mention to _DevTips_, _Traversy Media_, _Academind_, _Kevin Powell_, _w3newbie_, _Codersbite_ and _Clever Techie_ for their tutorials.
-* I have sought advice from Slack and Tutor Support and would like to acknowledge in particular, _Tim Nelson_ and _Anna Greaves_ for their patience and assistance. 
+* YouTube content has helped me understand html and css behaviours to a greater depth. Special mention to [_DevTips_](https://www.youtube.com/user/DevTipsForDesigners/videos), [_Traversy Media_](https://www.youtube.com/user/TechGuyWeb/videos), [_Academind_](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w/videos), [_Kevin Powell_](https://www.youtube.com/user/KepowOb/videos), [_w3newbie_](https://www.youtube.com/user/TheMACinTUTS/videos), [_Codersbite_](https://www.youtube.com/channel/UC8c4OFeOvNGmUlHLfQb9TVg) and [_Clever Techie_](https://www.youtube.com/channel/UC1WxZFhq56xs1oxXH-XveSQ) for their tutorials.
+* I have sought advice from Slack and Tutor Support and would like to acknowledge in particular, _Tim [Nelson_ and] _Anna Greaves_ for their patience and assistance. 
 * All textual content has been provided by myself.
-* Any code utilised from the aforementioned sources has been modified to support my site. With exception of some javascript code I used for the navbar's auto closing behaviour ([found here](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/)).
+* Any code utilised from the aforementioned sources has been modified to support my site. With exception of some javascript code I used for the navbar's auto closing behaviour found here at [mdbootstrap.com](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/).
 * Images have been obtained from the free stock libraries mentioned above.
 
 
