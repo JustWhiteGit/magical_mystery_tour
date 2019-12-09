@@ -63,7 +63,20 @@ Presented with eye-catching colours and bold typography applicable to the band g
 * [Bootstrap](https://getbootstrap.com/) An open source toolkit for developing with HTML, CSS, and JS.
 * [FontAwesome](https://fontawesome.com/) Popular icon set and toolkit.
 * [Balsamic](https://balsamiq.com/) A user interface design tool for creating wireframes. Use it to generate digital sketches of your product ideas.
-* [Canva](https://www.canva.com/)/[Pixabay](https://pixabay.com/)/[Pexels](https://pixabay.com/) Free stock images.
+* [Canva](https://www.canva.com/)/[Pixabay](https://pixabay.com/)/[Pexels](https://pixabay.com/) Free stock image libraries.
 
+
+
+## Credits/Ackowlegments
+
+I have used the learning from the course to build this website. I have utilised many platforms to develop this learning and improve my understanding of the core structures in this build. 
+* In principle, the learnings from [Bootstrap](https://getbootstrap.com/) and [W3Schools](https://www.w3schools.com/) and their libraries of content have been essential. 
+* I have also used [Material Design for Bootstrap(mdbootstrap)](https://mdbootstrap.com/) and [Stack Overflow](https://stackoverflow.com/) to provide various public viewpoints on issues that I encountered when Bootstrap and W3School did not present an answer. 
+
+
+* Text content has been provided by myself.
+* 
+* Images have been obtained from the free stock libraries mentioned above.
+* 
 
 
