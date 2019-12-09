@@ -57,5 +57,13 @@ Presented with eye-catching colours and bold typography applicable to the band g
 * Gallery with tour images/fan's photos.
 
 ## Technologies utilised
+* [Gitpod](https://www.gitpod.io/) Online IDE for GitHub & GitLab.
+* [HTML](https://www.w3schoolshttps://www.gitpod.io/.com/html/) The standard markup language for Web pages.
+* [CSS](https://www.w3schools.com/css/) Language that describes the style of an HTML document.
+* [Bootstrap](https://getbootstrap.com/) An open source toolkit for developing with HTML, CSS, and JS.
+* [FontAwesome](https://fontawesome.com/) Popular icon set and toolkit.
+* [Balsamic](https://balsamiq.com/) A user interface design tool for creating wireframes. Use it to generate digital sketches of your product ideas.
+* [Canva](https://www.canva.com/)/[Pixabay](https://pixabay.com/)/[Pexels](https://pixabay.com/) Free stock images.
+
 
 
