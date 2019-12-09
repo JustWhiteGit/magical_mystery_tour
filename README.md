@@ -34,16 +34,21 @@ The use of Balsamic wireframe mockups helped with the initial design and continu
 
 Presented with eye-catching colours and bold typography applicable to the band genre. 
 
+## Features 
+
+* Presented with full title screen home page and a single menu toggle to find each section. Whereas for desktop/large screen viewports an expanded centralised menu to navigate the site which remains fixed for user transparency. 
+
+* Smooth scroll configuration provides clean transition from section to section in both mobile and desktop display. This allows the viewport to display each section independantly and snaps back to the relevent section with the most content in the users viewport display. 
+
+* Factual biopics of each band member is displayed with a corresponding silhouette image to contrast with the busy multicoloured backdrops. Each member has expandable content available for the user to toggle. 
+
+* Tour packages presented cleanly with contrasting simplicity against the bold background, maintaining consistant user experience. Each tour has more content available that can be switched on/off with the use of more info buttons.
+
+* The contact us section provides a simple form structure with free-text space and selectable drop-down options. This area also provides usable links to social media sites within a new tab, to further improve user experience. 
+
+* Due to the visually stimulating style of the site, scroll bars have been removed to reduce unnecessary visual noise. The use of the fixed menu bar and smooth scrolling pages provides ample options for navigation. 
 
 
-
-
-
-
-
-
-
-Presented with full logo home page and a single menu toggle to find each section. Desktop or large screen viewports allows an expanded centralised menu to navigate the site which remains fixed for user transparency. Smooth scroll supplies clean transition from section to section in both mobile and desktop display. Cards with modals 
-
+## Technologies utilised
 
 
