@@ -8,19 +8,19 @@ So, you're a Beatles fan are you? You've got all the albums and love everything 
 
 This website has been developed for fans of the Beatles. A site to book sight-seeing tours in different locations across the globe delivered by experts and lifetime fans of the band. To experience first-hand the various locales, venues, lifestyles and important historical landmarks that influenced the bands success. 
 
-### Strategy
+#### Strategy
 
 The aim was to create a site with an exciting interface with exagerrated colour and psychedelic content to compliment one of the bands most iconic eras. Images, typography and styling has been presented to reinforce Beatles nostalgia. 
 
-### Scope
+#### Scope
 
 For users, I provided a site that could captivate intrigue in order to sell sight-seeing tours providing interesting content on each of the band members and their lives. 
 
-### Structure
+#### Structure
 
 Ease of use was important so a single page site was created with sectional content to scroll through. Each section is presented with intuitive presentation with clickable extensions to view more information on idividual content when desired. 
 
-### Skeleton
+#### Skeleton
 
 The use of Balsamic wireframe mockups helped with the initial design and continued development of the site. 
 
@@ -30,12 +30,13 @@ The use of Balsamic wireframe mockups helped with the initial design and continu
 * [Packages]()
 * [Contact Us]()
 
-### Surface
+#### Surface
 
 Presented with eye-catching colours and bold typography applicable to the band genre. 
 
 ## Features 
 
+#### Implemented
 * Presented with full title screen home page and a single menu toggle to find each section. Whereas for desktop/large screen viewports an expanded centralised menu to navigate the site which remains fixed for user transparency. 
 
 * Smooth scroll configuration provides clean transition from section to section in both mobile and desktop display. This allows the viewport to display each section independantly and snaps back to the relevent section with the most content in the users viewport display. 
@@ -48,6 +49,12 @@ Presented with eye-catching colours and bold typography applicable to the band g
 
 * Due to the visually stimulating style of the site, scroll bars have been removed to reduce unnecessary visual noise. The use of the fixed menu bar and smooth scrolling pages provides ample options for navigation. 
 
+#### Future release
+* Interactive Google map interface with highlighted areas of interest in conjunction with the available tour packages. 
+
+* Enriched testamonial section for further user reviews.
+
+* Gallery with tour images/fan's photos.
 
 ## Technologies utilised
 
