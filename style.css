@@ -212,24 +212,20 @@ section#four {
 
 
 
-.about-us {
-    border: 5px solid red;
+.about-us {}
+
+.carousel-inner {
+   width: 50%;
+   height: 20rem;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: dashed;
+   border-color: white;
+   border-width: 0.1rem;
     
 }
 
-.rachel {
-    border: 3px solid black;
-    height: 25vh;
-}
 
-.information {
-    height: 25vh;
-}
-
-.lauren {
-    border: 3px solid white;
-    height: 25vh;
-}
 
 
 /* ==================================================== C A R D S =============== */
@@ -468,6 +464,19 @@ section#four {
     .social-links li a {
         font-size: 2rem;
         }
+
+.carousel-inner {
+   width: 100%;
+   height: 40rem;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: dashed;
+   border-color: white;
+   border-width: 0.1rem;
+    
+}
+
+
 
 }
 
