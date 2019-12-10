@@ -78,8 +78,11 @@ Working with a fixed navbar for full screen devices and opting for a 'hamburger'
 
 I was able to utilise Bootstraps cards and modals to present content cleanly however I encountered many issues with size and responsiveness on smaller devices. With the cards possessing different volumes of content, the cards would not display in linear form. Despite stacking on reduced resolutions the cards would occupy varied space and looked haphazard. I introduced flex utilities and a height modify ```h-100``` to the columns to repair this which resulted in a more pleasing appearance of similarity. A new version release of Bootstrap has addressed known issues with its card deck functionality. 
 
-I have tested this site with Google Chrome, Mozilla Firefox, Opera Browser, Microsoft Edge and Safari
+I have tested this site with Google Chrome throughout it's development; making use of the dev-tools supplied through the Inspect options, to make adjustments to my code where applicable. I have also tested the site manually with Mozilla Firefox, Opera Browser and Microsoft Edge. I found that the smooth scrolling effect applied was not supported by Edge. Although this has removed the smooth transitions (between pages) for the Edge user, a scroll bar becomes active to navigate the sections and the site can be used as intended.
 
+Further responsiveness testing has been conducted with the use of [mediaGenesis'](https://responsivedesignchecker.com/) responsive website design checker which renders this site in 27 different viewport resolutions; including extra small devices such as the iPhone 3 & 4/4s.
+
+All navbar menu items direct the user to the correct destination. Menu items, buttons and social media icons have ```hover``` functionality working effectively. Each link will open in a new tab using the ```target="_blank``` command. 
 
 
 
@@ -89,9 +92,9 @@ I have tested this site with Google Chrome, Mozilla Firefox, Opera Browser, Micr
 ## Deployment
 
 
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named ```index.html```
+This site is hosted on GitHub. It is deployed directly from the master branch and the site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named ```index.html```
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone ```site address ``` into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+To run locally, you can clone this repository directly into the editor of your choice by pasting ```git clone https://github.com/JustWhiteGit/magical_mystery_tour``` into your terminal. To cut ties with this GitHub repository, type ```git remote rm origin``` into the terminal.
 
 
 
