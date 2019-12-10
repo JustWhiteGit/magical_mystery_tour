@@ -551,10 +551,13 @@ section#four {
         font-size: 1rem;
     }
     .modal-dialog .modal-content .modal-body p {
-    font-size: 1.2rem;
-    color: indigo;
-    text-align: justify;
-    letter-spacing: 0.5px;    
+        font-size: 1.2rem;
+        color: indigo;
+        text-align: justify;
+        letter-spacing: 0.5px;    
+    }
+    .extra-small {
+        height: 40px;
     }
 }
 
