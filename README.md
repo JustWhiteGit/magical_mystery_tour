@@ -80,7 +80,7 @@ I was able to utilise Bootstraps cards and modals to present content cleanly how
 
 I have tested this site with Google Chrome throughout it's development; making use of the dev-tools supplied through the Inspect options, to make adjustments to my code where applicable. I have also tested the site manually with Mozilla Firefox, Opera Browser and Microsoft Edge. I found that the smooth scrolling effect applied was not supported by Edge. Although this has removed the smooth transitions (between pages) for the Edge user, a scroll bar becomes active to navigate the sections and the site can be used as intended. The other browsers worked fine.
 
-Further responsiveness testing has been conducted with the use of [mediaGenesis'](https://responsivedesignchecker.com/) responsive website design checker which renders this site in 27 different viewport resolutions; including extra small devices such as the iPhone 3 & 4/4s.
+Further responsiveness testing has been conducted with the use of [mediaGenesis'](https://responsivedesignchecker.com/) responsive website design checker which renders this site in 27 different viewport resolutions; including extra small devices such as the iPhone 5/SE.
 
 All navbar menu items direct the user to the correct destination.
 Menu items, buttons and social media icons have ```hover``` functionality working effectively.
