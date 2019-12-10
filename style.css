@@ -302,15 +302,16 @@ section#four {
     font-size: 2rem;
     padding: 0px;
     color: red;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     margin: 3px;
 }
 
 .card-tours .card-body-tours p {
     font-size: 1.25rem;
-    line-height: 18px;
+    letter-spacing: 1px;
+    line-height: 20px;
     margin: 14px;
-    text-align: justify;
+    text-align: center;
     color: purple;
 }
 
@@ -536,9 +537,9 @@ section#four {
 
 }
 
-/*Introduced max-width media query for unusually small devices like the iPhoneSE */
+/*Introduced max-width media query for unusually small devices like the iPhone 3/4/5/SE etc */
 @media(max-width: 500px){
-      Section h2 {
+    Section h2 {
         font-size: 2.5rem;
         text-shadow: 0.1rem 0.1rem purple;
         }
@@ -548,6 +549,12 @@ section#four {
 
     .btn-submit {
         font-size: 1rem;
+    }
+    .modal-dialog .modal-content .modal-body p {
+    font-size: 1.2rem;
+    color: indigo;
+    text-align: justify;
+    letter-spacing: 0.5px;    
     }
 }
 
