@@ -68,8 +68,19 @@ Presented with eye-catching colours and bold typography applicable to the band g
 
 ## Testing
 
+The aim to produce a vibrant site promoting the business' sight-seeing tour packages has been achieved. The user is able to review available tours and make contact with the business directly. 
 
-dshfbvkjvhn
+The site has been tested thoroughly throughout it's production with the support of both the [HTML](https://validator.w3.org/#validate_by_input) and [CSS](https://jigsaw.w3.org/css-validator/#validate_by_input) Validation Services run by [W3.org](https://www.w3.org/). They have been used to identify odd errors (such as stray divs) and as a tool to promote confidence in producing legitimate code.
+
+Initial intentions of having a site with parrallax scrolling pages were abandoned in lieu of a smooth scroll design with snap-back actions. This was the favoured choice owing to the lack of textual content outside of the cards/modals deployed for styling this site. I opted for bold backgrounds to fill each section and initially found the images were rendering as zoomed-in which had poor resolution and was hindering the load speed; fixed with the background-size:cover; command within the CSS.
+
+Working with a fixed navbar for full screen devices and opting for a 'hamburger' design for small devices I encountered some issues with the responsiveness. The toggler would not present the list cleanly and would nestle within the section display. Although not highlighted using the validation, I was able to identify and remove an unnecessary nav class which remedied the issue. 
+
+I was able to utilise Bootstraps cards and modals to present content cleanly however I encountered many issues with size and responsiveness on smaller devices. With the cards possessing different volumes of content, the cards would not display in linear form. Despite stacking on reduced resolutions the cards would occupy varied space and looked haphazard. I introduced flex utilities and a height modify h-100 to the columns to repair this which resulted in a more pleasing appearance of similarity. A new version release of Bootstrap has addressed known issues with its card deck functionality. 
+
+
+
+
 
 
 
