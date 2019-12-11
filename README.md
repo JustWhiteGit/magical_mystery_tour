@@ -1,6 +1,6 @@
 # Magical Mystery Tours
 
-So, you're a Beatles fan are you? You've got all the albums and love everything about them, I'm sure. But have you ever considered visiting some of the towns and cities that made them what they are today? You're probably curious as to where they first met, where they found love, where they called home? We have the answers! So, come with us and together we'll explore some of the well known (and some of the lesser known) places of interest that helped sculpt the fabulous foursome in becoming the most decorated and idolised band the world has ever seen.
+So, you're a Beatles fan are you? You've got all the albums and love everything about them, I'm sure. But have you ever considered visiting some of the towns and cities that made them what they are today? You're probably curious as to where they first met, where they found love, where they called home? We have the answers! So, book a tour with us and together we'll explore some of the well known (and some of the lesser known) places of interest that helped sculpt the fabulous foursome in becoming the most decorated and idolised band the world has ever seen.
 
 ### [Live Site](https://justwhitegit.github.io/magical_mystery_tour/)
 
@@ -24,7 +24,7 @@ Ease of use was important so a single page site was created with sectional conte
 
 The use of Balsamic wireframe mockups helped with the initial design and continued development of the site. 
 
-* [Home]()
+* [Home](https://github.com/JustWhiteGit/magical_mystery_tour/tree/master/wireframes)
 * [About]()
 * [Band]()
 * [Packages]()
