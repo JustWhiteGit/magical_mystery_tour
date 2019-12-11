@@ -136,7 +136,7 @@ section p {
 /* ====================================================  I M A G E S =============== */
 
 section#home {
-    background: url("assets/images/background1.jpg") no-repeat center center/ cover;
+    background: url("../images/background1.jpg") no-repeat center center/ cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -144,7 +144,7 @@ section#home {
 }
 
 section#one {
-    background: url("assets/images/background1.jpg") no-repeat center center/ cover;
+    background: url("../images/background1.jpg") no-repeat center center/ cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -152,7 +152,7 @@ section#one {
 }
 
 section#two {
-    background: url("assets/images/background2.jpg") no-repeat center center/ cover;
+    background: url("../images/background2.jpg") no-repeat center center/ cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -160,7 +160,7 @@ section#two {
 }
 
 section#three{
-    background: url("assets/images/background3.jpg") no-repeat center center/ cover;
+    background: url("../images/background3.jpg") no-repeat center center/ cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -168,7 +168,7 @@ section#three{
 }
 
 section#four {
-    background: url("assets/images/background4.jpg") no-repeat center center/ cover;
+    background: url("../images/background4.jpg") no-repeat center center/ cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
