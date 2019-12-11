@@ -355,7 +355,7 @@ section#four {
 /* modals */
 
 #liverpoolModal, #londonModal, #beyondModal, #hamburgModal, #newyorkModal, #rishikeshModal {
-    background:  url("assets/images/background3.jpg") no-repeat center center/ cover;
+    background:  url("../images/background5.jpg") no-repeat center center/ cover;
 }
 
 .modal-dialog .modal-content .modal-title {
@@ -536,9 +536,10 @@ section#four {
         background-color: rgb(242, 242, 242, 0.9);
         margin: 2rem;
         padding: 1rem;
-        font-size: 2rem;
-        line-height: 2rem;
-        letter-spacing: 1px;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        letter-spacing: 2px;
+        text-shadow: 0.1rem 0.1rem white;
         color: purple;
         text-align: center;
         border-style: dashed;
