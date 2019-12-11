@@ -8,7 +8,7 @@
 body {
     font-family: "Abril Fatface", cursive;
     background-color: grey;
-    color: white;
+    color: #ffffff;
     line-height: 2em;
     height: 100vh;
     overflow: hidden;
@@ -57,40 +57,34 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
     width: 100%;
     justify-content: center;
-
 }
 
 .navbar ul li {
     margin: 0 1rem;
     padding: 0.5rem;
-
 }
 
 .navbar ul li a {
-
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: #ffffff;
     font-size: 1.2rem;
-
 }
 
 .navbar ul li a:hover {
-    color: #f6d5d5;
+    color: #f3c7c7;
 }
 
  .navbar-toggler-icon {
-     color: white;
-     font-size: 26px;
-     padding: 6px;
-
+    color: #ffffff;
+    font-size: 26px;
+    padding: 6px;
  }
 
 
 /* ================================================== S E C T I O N S ============ */
 
 section {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,38 +93,35 @@ section {
     width: 100%;
     height: 100vh;
     scroll-snap-align: center;
-
 }
 
 
 section h1 {
     font-size: 4.5rem;
     margin: 5%;
-    text-shadow: 0.2rem 0.2rem purple;
+    text-shadow: 0.2rem 0.2rem #800080;
 }
 
 section h2 {
     font-size: 3.5rem;
-    text-shadow: 0.1rem 0.1rem purple;
+    text-shadow: 0.1rem 0.1rem #800080;
 }
 
 section h3 {
     font-size: 1rem;
-    text-shadow: 0.1rem 0.1rem purple;
+    text-shadow: 0.1rem 0.1rem #800080;
 }
 
 section h4 {
-    text-shadow: 0.1rem 0.1rem purple;
+    text-shadow: 0.1rem 0.1rem #800080;
 }
 
 section h5 {
-    text-shadow: 0.1rem 0.1rem purple;   
+    text-shadow: 0.1rem 0.1rem #800080;   
 }
 
 section p {
     font-size: 2rem;
-   
-
 }
 
 /* ====================================================  I M A G E S =============== */
@@ -174,14 +165,13 @@ section#four {
     -o-background-size: cover;
     background-size: cover;
 }
-
+/* band cards */
 .card-img-top {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     height: auto;
-  
 }
 
 /* ==================================================== A B O U T  U S  =============== */
@@ -195,26 +185,11 @@ section#four {
     font-size: 1.2rem;
     line-height: 2rem;
     letter-spacing: 1px;
-    color: purple;
+    color: #800080;
     text-align: center;
     border-style: dashed;
-    border-color: #ff66ff;
+    border-color: #800080;
 }
-
-
-
-/* potential future release work to add responsive carousel 
-.carousel-inner {
-   width: 50%;
-   height: 20rem;
-   margin-left: auto;
-   margin-right: auto;
-   border-style: dashed;
-   border-color: white;
-   border-width: 0.1rem;
-    }
-
-*/
 
 
 
@@ -230,7 +205,6 @@ section#four {
 .card-deck {
     padding-left: 15px;
     padding-right: 15px;
-       
 }
 
 .card-band {
@@ -242,9 +216,8 @@ section#four {
 
 .card-deck .card-band .card-body .card-text {
     font-size: 1.2rem;
-    color: indigo;
+    color: #4b0082;
     text-shadow: 1.5px 1.5px #f6d5d5;
-   
 }
 
 .card-deck .card-band .card-body {
@@ -253,24 +226,22 @@ section#four {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-
 }
 
 
 .card-band .card-body .card-title {
     font-size: 2rem;
-    color: red;
+    color: #ff0000;
 }
 
 .card .card-body .card-text p {
     font-size: 1.5rem;
-    color: indigo;
-  
+    color: #4b0082;
 }
 
 .card-body-lennon p, .card-body-mccartney p, .card-body-harrison p, .card-body-starr p {
     font-size: 1.2rem;
-    color: indigo;
+    color: #4b0082;
     background-color: #f6d5d5;
     text-align: justify;
     padding: 14px;
@@ -287,7 +258,7 @@ section#four {
 .card-tours .card-body-tours .card-title {
     font-size: 2rem;
     padding: 0px;
-    color: red;
+    color: #ff0000;
     letter-spacing: 1px;
     margin: 3px;
 }
@@ -298,7 +269,7 @@ section#four {
     line-height: 20px;
     margin: 14px;
     text-align: center;
-    color: purple;
+    color: #800080;
 }
 
 .card-border {
@@ -320,10 +291,10 @@ section#four {
     margin: 15px;
     transition: 1.2s ease-in-out;
     border-width: thin;
-    border-color: purple;
+    border-color: #800080;
 }
 .btn-expand:hover {
-    background-color: purple;
+    background-color: #800080;
     font-size: 1.25rem;
     color: #f6d5d5;
 }
@@ -339,14 +310,14 @@ section#four {
 
 .btn-submit {
     background-color: #f6d5d5;
-    border-color: purple;
+    border-color: #800080;
     font-size: 1.25rem;
     text-decoration: none;
     transition: 1.2s ease-in-out;
 }
 
 .btn-submit:hover {
-    background-color: purple;
+    background-color: #800080;
     color: #f6d5d5;
 }
 
@@ -360,24 +331,23 @@ section#four {
 
 .modal-dialog .modal-content .modal-title {
     font-size: 2.5rem;
-    color: red;
+    color: #ff0000;
     margin: 30px;
 }
 
-
 .modal-dialog .modal-content .modal-body p {
     font-size: 1.5rem;
-    color: indigo;
+    color: #4b0082;
     text-align: justify;
     letter-spacing: 0.5px;    
 }
 
 .modal-header {
-    color: purple;
+    color: #800080;
 }
 
 .modal-footer {
-    color: purple;
+    color: #800080;
     font-size: 1.25rem;
     letter-spacing: 0.5px;
 }
@@ -408,7 +378,6 @@ section#four {
 
 .social-links {
     padding-top: 10px;
-/*  padding-bottom: 30px;*/
 }
 
 .social-links li a {
@@ -420,9 +389,8 @@ section#four {
     text-decoration: none;
     transition: 1.2s ease-in-out;
 }
-
 .social-links li a:hover {
-    color: purple;
+    color: #800080;
 }
 
 
@@ -435,15 +403,15 @@ section#four {
     section h1 {
         font-size: 5rem;
         margin: 5%;
-        text-shadow: 0.2rem 0.2rem purple;
-        }
+        text-shadow: 0.2rem 0.2rem #800080;
+    }
     Section h2 {
         font-size: 4rem;
-                }
+    }
     section h3 {
         font-size: 1.5rem;
-        text-shadow: 0.1rem 0.1rem purple;
-        }
+        text-shadow: 0.1rem 0.1rem #800080;
+    }
     .about-us p {
         background-color: rgb(242, 242, 242, 0.9);
         margin: 1.75rem;
@@ -451,43 +419,42 @@ section#four {
         font-size: 1.3rem;
         line-height: 2rem;
         letter-spacing: 1px;
-        color: purple;
+        color: #800080;
         text-align: center;
         border-style: dashed;
-        border-color: #ff66ff;
-        }
+        border-color: #800080;
+    }
     .card-deck .card-band .card-body .card-text {
         font-size: 1.3rem;
-        }
+    }
     .card-body-lennon p, .card-body-mccartney p, .card-body-harrison p, .card-body-starr p {
         font-size: 1.3rem;
-        }
+    }
     .social-links li a {
         font-size: 2rem;
-        }
+    }
    }
-
 
 @media(min-width: 768px) {
     .navbar {
         background: rgba(0, 0, 0, 0.4);
-        }
+    }
     .navbar-nav {
         background: rgba(0, 0, 0, 0.4);
-        }
+    }
     section h1 {
         font-size: 6rem;
         margin: 5%;
-        text-shadow: 0.2rem 0.2rem purple;
-        }
+        text-shadow: 0.2rem 0.2rem #800080;
+    }
     section h2 {
         font-size: 5rem;
-        text-shadow: 0.15rem 0.15rem purple;
-        }
+        text-shadow: 0.15rem 0.15rem #800080;
+    }
     section h3 {
         font-size: 2rem;
-        text-shadow: 0.1rem 0.1rem purple;
-        }
+        text-shadow: 0.1rem 0.1rem #800080;
+    }
     .about-us p {
         background-color: rgb(242, 242, 242, 0.9);
         margin: 2rem;
@@ -495,43 +462,42 @@ section#four {
         font-size: 1.5rem;
         line-height: 2rem;
         letter-spacing: 1px;
-        color: purple;
+        color: #800080;
         text-align: center;
         border-style: dashed;
-        border-color: #ff66ff;
-        }
+        border-color: #800080;
+    }
     .card-deck .card-band .card-body .card-text {
         font-size: 1.4rem;
-        }
+    }
     .card-body-lennon p, .card-body-mccartney p, .card-body-harrison p, .card-body-starr p {
         font-size: 1.4rem;
-        }
+    }
     .social-links li a {
         font-size: 2.5rem;
     }
-
 }
 
 @media(min-width: 992px) {
     .navbar {
         background: rgba(0, 0, 0, 0.4);
-        }
+    }
     .navbar-nav {
         background: rgba(0, 0, 0, 0.4);
-        }
+    }
     section h1 {
         font-size: 8rem;
         margin: 5%;
-        text-shadow: 0.2rem 0.2rem purple;
-        }
+        text-shadow: 0.2rem 0.2rem #800080;
+    }
     section h2 {
         font-size: 6rem;
-        text-shadow: 0.2rem 0.2rem purple;
-        }
+        text-shadow: 0.2rem 0.2rem #800080;
+    }
     section h3 {
         font-size: 2.5rem;
-        text-shadow: 0.1rem 0.1rem purple;
-        }
+        text-shadow: 0.1rem 0.1rem #800080;
+    }
     .about-us p {
         background-color: rgb(242, 242, 242, 0.9);
         margin: 2rem;
@@ -539,18 +505,18 @@ section#four {
         font-size: 2.5rem;
         line-height: 2.5rem;
         letter-spacing: 2px;
-        text-shadow: 0.1rem 0.1rem white;
-        color: purple;
+        text-shadow: 0.1rem 0.1rem #ffffff;
+        color: #800080;
         text-align: center;
         border-style: dashed;
-        border-color: #ff66ff;
-        }
+        border-color: #800080;
+    }
     .card-deck .card-band .card-body .card-text {
         font-size: 1.5rem;
-        }
+    }
     .card-body-lennon p, .card-body-mccartney p, .card-body-harrison p, .card-body-starr p {
         font-size: 1.5rem;
-        }
+    }
      .social-links li a {
         font-size: 3rem;
     }
@@ -561,18 +527,17 @@ section#four {
 @media(max-width: 450px){
     Section h2 {
         font-size: 3rem;
-        text-shadow: 0.1rem 0.1rem purple;
-        }
+        text-shadow: 0.1rem 0.1rem #800080;
+    }
     .btn-expand {
         font-size: 1rem;
     }
-
     .btn-submit {
         font-size: 1rem;
     }
     .modal-dialog .modal-content .modal-body p {
         font-size: 1.2rem;
-        color: indigo;
+        color: #4b0082;
         text-align: justify;
         letter-spacing: 0.5px;    
     }
