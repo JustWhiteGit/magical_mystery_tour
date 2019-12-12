@@ -7,33 +7,32 @@
 
 body {
     font-family: "Abril Fatface", cursive;
-    background-color: grey;
+    background-color: #808080;
     color: #ffffff;
     line-height: 2em;
     height: 100vh;
     overflow: hidden;
-
     }
-
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 5%;
-  
-}
 
 .container-fluid {
     width: 100%;
     height: 100%;
     padding-left: 0;
     padding-right: 0;
+
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
-
+    /* smooth scroll behaviour code influenced by Traversy Media tutorials */
    }
 
 ::-webkit-scrollbar {
     display: none;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 5%;
+  }
 
 /* ============================================= N A V B A R ==================== */
 
@@ -92,7 +91,8 @@ section {
     text-align: center;
     width: 100%;
     height: 100vh;
-    scroll-snap-align: center;
+    scroll-snap-align: center; 
+    /* section code as required for the smooth scroll behaviour to function (Travesry Media) */
 }
 
 
@@ -372,9 +372,6 @@ section#four {
 /* ==================================================== S O C I A L  L I N K S =============== */
 
 
-.contact {
-   
-}
 
 .social-links {
     padding-top: 10px;
