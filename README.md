@@ -72,7 +72,7 @@ The aim to produce a vibrant site promoting the business' sight-seeing tour pack
 
 The site has been tested thoroughly throughout its production with the support of both the [HTML](https://validator.w3.org/#validate_by_input) and [CSS](https://jigsaw.w3.org/css-validator/#validate_by_input) Validation Services run by [W3.org](https://www.w3.org/). They have been used to identify errors (such as stray divs) and as a tool to promote confidence in producing legitimate code.
 
-Initial intentions of having a site with parallax scrolling pages were abandoned in lieu of a smooth scroll design with snap-back actions. This was the favoured choice owing to the lack of textual content outside of the cards/modals deployed for styling this site. I opted for bold backgrounds to fill each section and initially found the images were rendering as zoomed-in which had poor resolution and was hindering the load speed; fixed with the ```background-size:cover;``` command within the CSS.
+Initial intentions of having a site with parallax scrolling pages were abandoned in lieu of a smooth scroll design with snap-back actions. This was the favoured choice owing to the lack of textual content outside of the cards/modals deployed for styling this site. I opted for bold backgrounds to fill each section and initially found the images were rendering as zoomed-in which had poor resolution and was hindering the load speed; fixed with the ```background-size: cover;``` command within the CSS.
 
 Working with a fixed navbar for full screen devices and opting for a 'hamburger' menu for small devices I encountered some issues with the responsiveness. The toggler would not present the list cleanly and would nestle within the section display. Although not highlighted using the validation, I was able to identify and remove an unnecessary ```nav``` class which remedied the issue. 
 
@@ -94,9 +94,13 @@ The contact us form is not connected to an API and will not allow submission.
 
 ## Deployment
 
-This site has been built using the Gitpod IDE via the Code Institutes 'gitpod-full-template' and hosted on GitHub. It is deployed directly from the master branch and the site will update automatically upon new commits to the master branch. For the site to deploy correctly on GitHub pages, the landing page must be named ```index.html```
+This site has been built using the Gitpod IDE (via the Code Institutes 'gitpod-full-template') and hosted on GitHub. It is deployed directly from the master branch and the site will update automatically upon new commits to the master branch. 
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting ```git clone https://github.com/JustWhiteGit/magical_mystery_tour``` into your terminal. To cut ties with this GitHub repository, type ```git remote rm origin``` into the terminal.
+Deployment was achieved by selecting the appropriate repository from GitHub dashboard. Then by clicking on the "Settings" cog and scrolling down to the "GitHub Pages" section, the "Source" drop-down list will present the option to build from "master branch".
+Once refreshed the published website address can be seen in the "GitHub Pages" section.  
+
+You can clone a repository by selecting the green "clone or download' icon, clicking the clipboard logo to copy the URL and then paste the site address into the terminal of your chosen IDE with the precursor command of "git clone". 
+To run this site locally copy and paste the following ```git clone https://github.com/JustWhiteGit/magical_mystery_tour``` into your terminal. Cut ties with this GitHub repository by typing the command ```git remote rm origin``` into the terminal.
 
 
 
@@ -107,9 +111,9 @@ I have used the learning from the Full Stack Web Developer course to build this 
 * The site has been built using Bootstrap framework and some of its components, which were adjusted to meet my design needs.
 * In principle, the learnings from [Bootstrap](https://getbootstrap.com/) and [W3Schools](https://www.w3schools.com/) and their libraries of content have been essential. 
 * I have used [Material Design for Bootstrap (mdbootstrap)](https://mdbootstrap.com/) and [Stack Overflow](https://stackoverflow.com/) to seek public viewpoints on issues that I encountered when Bootstrap and W3School did not present an answer. 
-* YouTube content has helped me understand HTML and CSS behaviours to a greater depth. Ackowledgment to [_Traversy Media_](https://www.youtube.com/user/TechGuyWeb/videos) tutorials I utilised for the smooth scroll/snap behaviour of the site, and to [_DevTips_](https://www.youtube.com/user/DevTipsForDesigners/videos), [_Academind_](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w/videos), [_Kevin Powell_](https://www.youtube.com/user/KepowOb/videos), [_w3newbie_](https://www.youtube.com/user/TheMACinTUTS/videos), [_Codersbite_](https://www.youtube.com/channel/UC8c4OFeOvNGmUlHLfQb9TVg) and [_Clever Techie_](https://www.youtube.com/channel/UC1WxZFhq56xs1oxXH-XveSQ) for their informative videos.
+* YouTube content has helped me understand HTML and CSS behaviours to a greater depth. Acknowledgments to [_Traversy Media_](https://www.youtube.com/user/TechGuyWeb/videos) tutorials I utilised for the smooth scroll/snap behaviour of the site, and to [_DevTips_](https://www.youtube.com/user/DevTipsForDesigners/videos), [_Academind_](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w/videos), [_Kevin Powell_](https://www.youtube.com/user/KepowOb/videos), [_w3newbie_](https://www.youtube.com/user/TheMACinTUTS/videos), [_Codersbite_](https://www.youtube.com/channel/UC8c4OFeOvNGmUlHLfQb9TVg) and [_Clever Techie_](https://www.youtube.com/channel/UC1WxZFhq56xs1oxXH-XveSQ) for their informative videos.
 * I have sought advice from Slack and Tutor Support, with special mention in particular to, _Tim Nelson_ and _Anna Greaves_ for their patience and assistance.
-* All textual content has been provided by myself.
+* All textual content has been provided by me.
 * Any code utilised from the aforementioned sources has been modified to support my site. With exception of the JavaScript code I used for the navbar's auto closing behaviour found here at [mdbootstrap.com](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/).
 * Images have been obtained from the free stock libraries mentioned above.
 
